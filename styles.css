@@ -67,4 +67,11 @@
 }
 .design, .dev, .product {
     text-align: center;
+} 
+
+/* portfolio section */
+
+.portfolio {
+    padding-left: 250px;
+    padding-right: 220px;
 }
