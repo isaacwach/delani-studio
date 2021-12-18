@@ -1,3 +1,5 @@
+
+/* header section */
 .header {
    background-image: url(images/h_img.jpg); 
    text-align: center;
@@ -20,4 +22,10 @@
 .header p {
     font-size: 19px;
     color: white;
+}
+
+
+/* about us section */
+.about-us {
+    text-align: center;
 }
