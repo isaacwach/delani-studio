@@ -28,4 +28,9 @@
 /* about us section */
 .about-us {
     text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.about-us p{
+    font-size: 26px;
 }
