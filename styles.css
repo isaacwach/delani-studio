@@ -34,3 +34,12 @@
 .about-us p{
     font-size: 26px;
 }
+
+/* services section */
+.services {
+    text-align: center;
+    color: white;
+    background-image: url(images/s_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
