@@ -48,3 +48,23 @@
 .services p {
     font-size: 18px;
 }
+
+/* what we do section */
+.what-we-do {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.what-icons {
+    display: flex;
+    justify-content: space-between;
+}
+.what-we-do h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.design, .dev, .product {
+    text-align: center;
+}
