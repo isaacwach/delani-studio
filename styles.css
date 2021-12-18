@@ -3,10 +3,16 @@
    text-align: center;
    background-repeat: no-repeat;
    background-size: cover;
-   padding-top: 250px;
+   padding-top: 340px;
    padding-bottom: 40px;
 }
 .heading-1{
     margin-top: 50px;
     margin-bottom: 50px;
+}
+.mouse-click {
+    margin-top: 200px;
+}
+.header h1{
+    font-size: 60px;
 }
