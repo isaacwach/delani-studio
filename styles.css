@@ -15,4 +15,8 @@
 }
 .header h1{
     font-size: 60px;
+    color: white;
+}
+.header p {
+    font-size: 19px;
 }
