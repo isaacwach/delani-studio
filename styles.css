@@ -92,17 +92,22 @@
     background-size: cover;
     padding-top: 50px;
     padding-bottom: 200px;
+    color: white;
 }
 #name{
     width: 400px;
     height: 30px;
     margin-right: 12px;
+    background-color: transparent;
+    border: 1px solid rgb(243, 240, 240);
 }
 #email{
     width: 400px;
     height: 30px;
     margin-left: 12px;
     margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid rgb(243, 240, 240);
 }
 #message{
     width: 830px;
@@ -110,4 +115,9 @@
     margin-top: 30px;
     align-items: flex-start;
     background-color: transparent;
+    border: 1px solid rgb(243, 240, 240);
+}
+::placeholder{
+    color: white;
+    text-align: left;
 }
