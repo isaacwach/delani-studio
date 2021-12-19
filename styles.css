@@ -90,22 +90,24 @@
     background-image: url(images/c_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 40px;
-    padding-bottom: 140px;
+    padding-top: 50px;
+    padding-bottom: 200px;
 }
 #name{
-    width: 350px;
+    width: 400px;
     height: 30px;
     margin-right: 12px;
 }
 #email{
-    width: 350px;
+    width: 400px;
     height: 30px;
     margin-left: 12px;
+    margin-top: 20px;
 }
 #message{
-    width: 730px;
-    height: 160px;
+    width: 830px;
+    height: 250px;
     margin-top: 30px;
     align-items: flex-start;
+    background-color: transparent;
 }
