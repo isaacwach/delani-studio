@@ -67,6 +67,7 @@
 }
 .design, .dev, .product {
     text-align: center;
+    border: 1px solid red;
 } 
 
 /* portfolio section */
