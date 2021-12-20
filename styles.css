@@ -87,13 +87,20 @@
 .portfolio {
     padding-left: 250px;
     padding-right: 250px;
+    padding-bottom: 60px;
 }
 .portfolio h1 {
     text-align: center;
     margin-bottom: 40px;
 }
 .bottom-row{
-    padding-top: 40px;
+    padding-top: 30px;
+}
+.top-row img {
+    width: 100%;
+}
+.bottom-row img {
+    width: 100%;
 }
 
 /* contact us section */
