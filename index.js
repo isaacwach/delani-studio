@@ -85,10 +85,12 @@ $(document).ready(function() {
 
 var email=document.getElementById("email").value;
 function validateEmail(mail) {
-    var mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    var name=document.getElementById("name").value;
+    var email=document.getElementById("email").value;
+    var mailFormat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     if(email.match(mailFormat))
     {
-    alert("Valid email address!");
+    alert(name + ' we have received your email. Thank you for contacting us.');
     return true;
     }
     else
