@@ -138,13 +138,13 @@
     <div class="container-fluid contact-us">
         <h1>CONTACT US</h1>
         <div class="name-form">
-            <input type="text" id="name" placeholder="Name...">
+            <input type="text" id="name" placeholder="Name..." required>
             <input type="text" id="email" placeholder="Email...">
         </div>
         <div class="message-form">
-            <input type="text" id="message" placeholder="Your message here...">
+            <input type="text" id="message" placeholder="Your message here..." required>
         </div>
-        <button class="btn">Submit</button>
+        <button type="submit" class="btn" id="btn" onclick="validateEmail()">Submit</button>
     </div>
 
     <!-- footer section -->

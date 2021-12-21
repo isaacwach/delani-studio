@@ -74,3 +74,26 @@ $(document).ready(function() {
         $("#hidden8").hide()
     })
 })
+
+// document.addEventListener("click", function(e){
+//     var name=document.getElementById("name").value;
+//     if (name === ""||name===null){
+//         alert("Please enter your name")
+//     }
+//     e.preventDefault()
+// })
+
+var email=document.getElementById("email").value;
+function validateEmail(mail) {
+    var mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    if(email.match(mailFormat))
+    {
+    alert("Valid email address!");
+    return true;
+    }
+    else
+    {
+    alert("You have entered an invalid email address!");
+    return false;
+    }
+}

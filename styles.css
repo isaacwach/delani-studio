@@ -161,3 +161,11 @@
 .footer-logo {
     padding-top: 30px;
 }
+.btn {
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+}
