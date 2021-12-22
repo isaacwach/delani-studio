@@ -1,22 +1,27 @@
 # Delani Studio
 ## By Isaac Wachira
 ## Description
-Most people find it hard to remember the day of the week they were born. This application helps users to determine the day of the week they were born by inputting btheir date of birth. Besides, the application alerts the user their corresponding akan names, based on the day of birth and gender.
+This project is a web application for Delani studio that shows details about the services it offers, as well as all prerequisite information about the studio, a portfolio section and a form that enables users to send their messages and concern to Delani studios. The user is alerted with a thank you message.
 ![Landing page photo](https://github.com/isaacwach/akan-names/blob/master/images/Screenshot%20from%202021-12-12%2014-50-03.png)
 ## Author information
 I am a full stack developer, with impeccable skills in web development, UI design, and problem solving skills using algorithms. Besides, i have knowlege in enterprise development, financial accounting and business management.
-![Isaac](https://github.com/isaacwach/akan-names/blob/master/images/IMG_20211117_164824.jpg)
 ## Setup/Installation Requirements
 No available setup requirements
 ## BDD
-* Calculate day of birth 
-* Check validity of date entered 
-* Alert day of birth and akan name
+|Behavior|Input|Output|
+|--------|-----|------|
+|Enter your name|Isaac Ndirangu|----|
+|Enter your Email|isaacwach29@gmail.com|-----|
+|Enter message|I would like to visit your office|----|
+|Click submit|-------|Alert "isaac ndirangu, we have received your email, thank you"
+
+
 ## Technologies Used
 * HTML
 * CSS
 * Javascript
 * Bootstrap
+*Jquery
 ## Support and contact details
 For support or contribution:
 Email: ayzaqwashyra@gmail.com
