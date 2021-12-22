@@ -2,7 +2,7 @@
 ## By Isaac Wachira
 ## Description
 This project is a web application for Delani studio that shows details about the services it offers, as well as all prerequisite information about the studio, a portfolio section and a form that enables users to send their messages and concern to Delani studios. The user is alerted with a thank you message.
-![Landing page photo](https://github.com/isaacwach/akan-names/blob/master/images/Screenshot%20from%202021-12-12%2014-50-03.png)
+![Landing page photo](https://github.com/isaacwach/delani-studio/blob/master/images/delanihome.png)
 ## Author information
 I am a full stack developer, with impeccable skills in web development, UI design, and problem solving skills using algorithms. Besides, i have knowlege in enterprise development, financial accounting and business management.
 ## Setup/Installation Requirements
@@ -10,10 +10,10 @@ No available setup requirements
 ## BDD
 |Behavior|Input|Output|
 |--------|-----|------|
-|Enter your name|Isaac Ndirangu|----|
-|Enter your Email|isaacwach29@gmail.com|-----|
-|Enter message|I would like to visit your office|----|
-|Click submit|-------|Alert "isaac ndirangu, we have received your email, thank you"
+|Enter your name|Isaac Ndirangu||
+|Enter your Email|isaacwach29@gmail.com||
+|Enter message|I would like to visit your office||
+|Click submit||Alert "isaac ndirangu, we have received your email, thank you"
 
 
 ## Technologies Used
