@@ -75,18 +75,15 @@ $(document).ready(function() {
     })
 })
 
-// document.addEventListener("click", function(e){
-//     var name=document.getElementById("name").value;
-//     if (name === ""||name===null){
-//         alert("Please enter your name")
-//     }
-//     e.preventDefault()
-// })
 
 var email=document.getElementById("email").value;
 function validateEmail(mail) {
     var name=document.getElementById("name").value;
     var email=document.getElementById("email").value;
+    if (name===""||name===null) {
+        alert("Please enter your name")
+        return false
+    }
     var mailFormat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     if(email.match(mailFormat))
     {
