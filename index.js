@@ -76,10 +76,10 @@ $(document).ready(function() {
 })
 
 
-var email=document.getElementById("email").value;
+var email=document.getElementById("mce-EMAIL").value;
 function validateEmail(mail) {
-    var name=document.getElementById("name").value;
-    var email=document.getElementById("email").value;
+    var name=document.getElementById("mce-FNAME").value;
+    var email=document.getElementById("mce-EMAIL").value;
     if (name===""||name===null) {
         alert("Please enter your name")
         return false

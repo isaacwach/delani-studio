@@ -146,14 +146,18 @@ h2 {
     padding-bottom: 200px;
     color: white;
 }
-#name{
+form{
+    text-align: center;
+    margin-left: 420px;
+}
+#mce-FNAME{
     width: 400px;
     height: 30px;
     margin-right: 12px;
     background-color: transparent;
     border: 1px solid rgb(243, 240, 240);
 }
-#email{
+#mce-EMAIL{
     width: 400px;
     height: 30px;
     margin-left: 12px;
@@ -175,6 +179,8 @@ h2 {
     display: table-cell;
     justify-content: top;
 }
+
+/* footer */
 
 .footer{
     text-align: center;
