@@ -7,6 +7,9 @@
     margin:0px;
     font-family: 'Roboto';
 }
+h2 {
+    font-weight: bold;
+}
 
 /* header section */
 .header {
@@ -18,7 +21,7 @@
    padding-bottom: 40px;
 }
 .heading-1{
-    margin-top: 50px;
+    margin-top: 48px;
     margin-bottom: 50px;
 }
 .mouse-click {
@@ -39,9 +42,11 @@
     text-align: center;
     padding-top: 60px;
     padding-bottom: 60px;
+    padding-left: 180px;
+    padding-right: 180px;
 }
 .about-us p{
-    font-size: 26px;
+    font-size: 22px;
 }
 
 /* services section */
@@ -55,7 +60,7 @@
     padding-bottom: 60px;
 }
 .services p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* what we do section */
